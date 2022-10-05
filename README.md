@@ -19,10 +19,10 @@ after you fork the repository , open the terminal type the given command
 ```
 git clone https://github.com/segfault-00/Youtube-Clone
 
-```
-#Steps To start project
-```npm install ```
-```npm run dev  ```
+
+# Steps To start project
+npm install 
+npm run dev
 use React.js to add something in this project
 
 # Create a branch
