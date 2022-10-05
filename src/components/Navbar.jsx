@@ -1,7 +1,6 @@
 import { Stack } from '@mui/material';
 import { Link } from 'react-router-dom';
-
-import logo from '../assets/download.jpg';
+import YTLogo from '../assets/yt_logo.svg';
 import { SearchBar } from './';
 
 const Navbar = () => (
@@ -12,7 +11,7 @@ const Navbar = () => (
 		sx={{ position: 'sticky', background: '#000', top: 0, justifyContent: 'center', gap: '10px' }}
 	>
 		<Link to='/' style={{ display: 'flex', alignItems: 'center' }}>
-			<img src={logo} alt='logo' height={45} />
+			<img src={YTLogo} alt='logo' height={45} />
 		</Link>
 		<SearchBar />
 	</Stack>
